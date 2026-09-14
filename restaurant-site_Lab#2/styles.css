@@ -1,0 +1,224 @@
+/*I went with these colors because I like Fall and the NorthEast and I think they blend well. */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #ffbe30;
+
+  background-image: url("images/leaf_border_left.png"), url("images/leaf_border_right.png"),
+  radial-gradient(circle, rgba(255, 190, 48, 1) 0%, rgba(255, 190, 48, 1) 20%, rgba(219, 150, 0, 1) 70%);
+
+  background-repeat: repeat-y, repeat-y, no-repeat;
+
+  background-position: left top, right top, center;
+
+  background-size: 70px auto, 70px auto, cover;
+
+  margin: 0;
+
+}
+
+.navbar {
+background-color: #0b2d4d;
+}
+.navbar-brand,
+.navbar-nav .nav-link{
+  color: white;
+}
+.navbar-brand{
+  font-family: "Cormorant Garamond", Serif;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.navbar-nav .nav-link:hover{
+  color: #ffbe30;
+}
+.navbar-toggler{
+  background-color: #f5e6c8;
+}
+.menu-layout {
+  align-items: center;
+}
+
+.menu-info {
+  text-align: center;
+}
+
+.menu-picture {
+  text-align: center;
+}
+
+.menu-table-section {
+  margin-top: 30px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.fox-logo {
+  width: 250px;
+  margin: 20px auto;
+}
+
+.hero {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.hero-image {
+  width: 700px;
+  margin-top: 25px;
+}
+
+.card {
+  max-width: 700px;
+  margin: 20px auto 40px;
+  padding: 25px;
+  background-color: #f5e6c8;
+  border: 2px solid #0b2d4d;
+  text-align: center;
+
+}
+
+h1 {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 3rem;
+}
+
+.logo {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.hero h2 {
+  margin: 10px 0;
+}
+
+.hero p {
+  margin: 10px auto;
+  max-width: 600px;
+}
+.page-content{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.home-layout{
+  align-items: center;
+}
+.home-info{
+  text-align: center;
+}
+.home-image{
+  text-align: center;
+}
+.welcome-section{
+  justify-content: center;
+  margin-top: 30px;
+}
+.menu-intro {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.menu-image {
+  width: 700px;
+  margin-top: 20px;
+  border: black 3px solid;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.reservation-layout{
+  align-items: center;
+}
+
+caption {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 15px;
+  text-align: center;
+}
+
+th, td {
+  border: 1px solid #0b2d4d;
+  padding: 12px;
+  text-align: left;
+  overflow-wrap: break-word;
+}
+
+thead {
+  background-color: #0b2d4d;
+  color: white;
+}
+
+tbody tr:nth-child(even) {
+  background-color: antiquewhite;
+}
+
+.reservation-intro {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.reservation-image {
+  width: 400px;
+  margin-top: 20px;
+}
+
+form {
+  text-align: left;
+}
+
+form label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+form input, form select, form textarea {
+  width: 100%;
+  padding: 8px;
+}
+
+form input[type="radio"], form input[type="checkbox"] {
+  width: auto;
+}
+
+fieldset label {
+  display: inline;
+  margin: 0 15px 0 5px;
+}
+
+.checkbox-label {
+  display: inline;
+  margin-left: 5px;
+}
+
+fieldset {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #0b2d4d;
+}
+
+legend {
+  font-weight: bold;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #0b2d4d;
+  border: none;
+  color: white;
+}
+
+button:hover {
+  background-color: #ffbe30;
+  color: #0b2d4d;
+}
