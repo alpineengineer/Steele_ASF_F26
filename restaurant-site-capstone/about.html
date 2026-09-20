@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1">
+
+    <title>About | The Salty Fox</title>
+
+    <!-- favicon -->
+    <link rel="icon"
+          type="image/png"
+          href="favicon.png">
+
+    <!-- google fonts -->
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link
+            href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Orbitron:wght@400..900&display=swap"
+            rel="stylesheet">
+
+    <!-- font awesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+
+    <!-- bootstrap -->
+    <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet">
+
+    <!-- custom css -->
+    <link rel="stylesheet"
+          href="styles.css">
+
+</head>
+
+<body class="about-page">
+
+<!-- bootstrap navbar -->
+<nav class="navbar navbar-expand-lg">
+
+    <div class="container">
+
+        <a class="navbar-brand"
+           href="index.html">
+
+            <img src="images/logo.png"
+                 alt="The Salty Fox logo"
+                 width="50">
+            The Salty Fox
+            <!-- font awesome anchor icon for the restaurant's coastal theme -->
+            <i class="fa-solid fa-anchor"
+               aria-hidden="true"></i>
+        </a>
+
+        <button class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#mainNavbar"
+                aria-controls="mainNavbar"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+        <div class="collapse navbar-collapse"
+             id="mainNavbar">
+
+            <ul class="navbar-nav ms-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link"
+                       href="index.html">
+                        Home
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link"
+                       href="about.html"
+                       aria-current="page">
+                        About
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link"
+                       href="menu.html">
+                        Menu
+                    </a>
+                </li>
+
+                <li class="nav-item">
+
+                    <a class="nav-link"
+                       href="reservations.html">
+                        Reservations
+                    </a>
+
+                </li>
+
+                <li class="nav-item">
+
+                    <a class="nav-link"
+                       href="hiring.html">
+                        Hiring
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<main class="container page-content">
+    <section class="row about-layout">
+        <div class="col-lg-6 about-info">
+            <div class="card">
+                <h1>About The Salty Fox</h1>
+                <p>
+                    The Salty Fox has welcomed travelers to the New England coast
+                    since 1773. What began as a small harbor tavern has grown into
+                    a gathering place for sailors, merchants, airship crews, and
+                    travelers from across the region.
+                </p>
+
+                <p>
+                    In a world powered by steam and invention, the restaurant still
+                    holds on to its old coastal traditions. Humans, bulldogs, foxes,
+                    and other travelers gather around warm fires for seafood,
+                    hearty meals, and conversation after a long journey.
+                </p>
+
+                <p>
+                    Over the years, the original tavern has been updated with
+                    steam-powered kitchen equipment and modern conveniences while
+                    keeping the character of the original building.
+                </p>
+
+                <!-- font awesome gears for steampunk vibes -->
+                <p class="about-icon">
+                    <i class="fa-solid fa-gears"
+                       aria-hidden="true"></i>
+                    Tradition powered by steam.
+                </p>
+            </div>
+        </div>
+
+        <div class="col-lg-6 about-image-section">
+            <img class="about-image img-fluid"
+                 src="images/restaurant_inside.png"
+                 alt="Interior of The Salty Fox restaurant">
+        </div>
+    </section>
+
+    <section class="row justify-content-center">
+        <div class="col-lg-10">
+            <div class="card">
+                <h2>Who We Serve</h2>
+
+                <p>
+                    The Salty Fox welcomes everyone passing through the harbor.
+                    Local families dine beside sailors preparing for sea voyages,
+                    while airship crews stop in before departing for their next
+                    destination.
+                </p>
+
+                <p>
+                    Whether you arrive by road, ship, or airship, there is always
+                    a seat waiting by the fire.
+                </p>
+
+            </div>
+
+        </div>
+    </section>
+    <!--  this will lead to the error page-->
+    <section class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+            <p class="error-link">
+                Lost at sea?
+                <a href="error.html">Find your way back.</a>
+            </p>
+        </div>
+    </section>
+</main>
+
+<!-- bootstrap JS -->
+<script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+</script>
+<!-- custom JS -->
+<script src="script.js"></script>
+
+</body>
+
+</html>
